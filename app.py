@@ -27,7 +27,7 @@ if web_apps == "Exploratory Data Analysis":
       bool_vars = 0
       date_vars = 0
 
-      st.header("    Data Frame Dimension")
+      st.header("Data Frame Dimension")
       rel1, rel2 = st.columns(2)
       rel1.metric("# Rows", df.shape[0])
       rel2.metric("# Columns", df.shape[1])
